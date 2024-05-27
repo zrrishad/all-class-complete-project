@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsMainActivity2">
+
+
+    <RelativeLayout
+        android:id="@+id/edRel"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+
+<ImageView
+    android:id="@+id/edImage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/pic1"
+    android:scaleType="centerCrop"></ImageView>
+
+
+<TextView
+    android:id="@+id/edText1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Meta wants industry-wide labels for AI-made images"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+    android:background="#81000000"
+    android:textColor="#fff"
+    android:textSize="14dp"></TextView>
+
+
+
+        </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edRel">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         >
+
+
+
+         <TextView
+             android:id="@+id/edText2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:text="অপো এ৬০ স্মার্টফোনের উন্মোচনকে উদযাপন করতে ‘অপো এ৬০ লাখ টাকা ক্যাম্পেইন’- এর ভাগ্যবান বিজয়ীর নাম ঘোষণা করেছে বৈশ্বিক স্মার্টফোন উদ্ভাবনী প্রতিষ্ঠান অপো। গত ০৮ মে, ২০২৪, থেকে ১৪ মে, ২০২৪, পর্যন্ত চলা ফোনটির প্রি-অর্ডার ক্যাম্পেইনে বহু সংখ্যক গ্রাহক অংশ নেয়। বাজারে আসার পর অপো এ৬০ এই সেগমেন্টে সবচেয়ে কাঙ্খিত ডিভাইসগুলোর মধ্যে জায়গা করে নিয়েছে।
+
+লটারির মাধ্যমে নির্বাচিত করে এই ক্যাম্পেইনের বিজয়ীকে এক লাখ টাকার পুরস্কার প্রদান করা হয়েছে। অপো এ৬০ এর মতো অত্যাধুনিক প্রযুক্তির ফোনটির অভিজ্ঞতা নিতে অত্যন্ত উৎসাহী ছিলেন প্রি-অর্ডার ক্যাম্পেইনে
+
+অংশগ্রহণকারী স্মার্টফোনপ্রেমীরা। তাদের মধ্য থেকে রাজধানীর ফার্মগেট এলাকার মোহাম্মদ ইউনূস হয়েছেন ভাগ্যবান বিজেতা। পুরস্কার হিসেবে তাকে এক লাখ টাকার চেক দেওয়া হয়।"></TextView>
+
+
+
+
+
+
+
+
+
+
+     </LinearLayout>
+
+
+    </ScrollView>
+
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/edFab"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_margin="5dp"
+    android:src="@drawable/voice1"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+
+</RelativeLayout>
